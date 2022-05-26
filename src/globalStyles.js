@@ -10,9 +10,6 @@ export default createGlobalStyle`
 }
 
 
-     
-}
-
 body {
     color: ;
     font-family: 'Lato', sans-serif;
@@ -29,17 +26,26 @@ p {
     font-size: 20px;
 }
 
+.p-product {
+    margin-right: 10px;
+
+}
+
+
+
 h3 {
     text-align: center;
 }
 .p-comanda {
     text-align: center;
     color: #531cb3;
+    margin-top: 10px;
 }
 
 .buttons-register-return {
     width: 90%;
     text-align: center;
+    display: contents;
    
     
   
@@ -58,13 +64,20 @@ h3 {
         width: 80%;       
     } 
 }
+
+.container-welcome {
+
+}
+
 .container-register {
-    height: 625px;
+    height: 650px;
+    margin-bottom: 100px;
     
 }
 
 .container-login {
-    height: 450px;
+    height: 415px;
+    margin-bottom: 100px;
 }
 
 .container-login, .container-register {
@@ -89,13 +102,22 @@ h3 {
 .container-menu {
    margin-top: 0.8em;
    margin-left: 0;
+   margin-bottom: 100px;
+}
+
+.container-do-modal {
+    display: grid;
 }
 
 .container-modal-menu {
-    display: flex;
-    width: 500px;
+    width: 480px;
+    margin-left: 60px;
+    
 }
 
+.container-teste-order {
+    display: flex;
+}
 
 .ocultar-senha {
     position: absolute;
@@ -141,7 +163,7 @@ h3 {
     padding-top: 2em;
 }
 
-.side-elements, side-elements-client {
+.data-ready-order-client {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,7 +173,7 @@ h3 {
     margin-right: 0px;
 }
 
-.side-elements-client {
+.data-ready-order-client-client {
     width: 100%;
     font-size: 1em;
 }
@@ -159,6 +181,10 @@ h3 {
 .container-client-and-btn {
     display: flex;
     justify-content: center;
+}
+
+.container-teste {
+    display: inline-block;
 }
 
 `;

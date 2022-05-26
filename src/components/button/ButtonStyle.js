@@ -8,22 +8,23 @@ export const Container = styled.button`
   border-radius: 0.4rem;
   height: 3.5rem;
   width: 40%;
-  margin-top: 33px;
+  margin-top: 20px;
   border: none;
   background: #FF5B27;
+  margin-left: 10px;
   
 `;
 
 export const ButtonsHall = styled.button `
   width: 14rem;
-  background: #531CB3;
+  background: #FF5B27;
   border-radius: 0.4rem;
   height: 3.5rem;
   font-size: 1.2rem;
   cursor: pointer;
-  color: white;
+  color: #F7F7FF;
   border: none;
-  margin-left: 10px;
+  
 `;
 
 

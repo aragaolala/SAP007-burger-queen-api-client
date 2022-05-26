@@ -43,7 +43,7 @@ export const Label = styled.label `
     padding-bottom: 0.5rem;
     margin-top: 15px;
     text-align: left;
-    color: #FFAE1A;
+    color: #262322;
 
     @media screen and (min-width: 728px) {
     font-size: 1em;
@@ -51,8 +51,24 @@ export const Label = styled.label `
   }
 `
     
+export const ClientData = styled.input `
+    width: 14rem;
+    border: none;
 
+    background-color: #262322;
+    
+    margin: 15px;
+    text-align: center;
+    height: 3.5rem;
+    font-size: 20px;
+    color: #F7F7FF;
+    
+    
+    border-radius: 0.4rem;
 
+    &&::placeholder {
+    font-size: 1em;
+    color: #F7F7FF;
+}
 
-
-
+`
