@@ -31,15 +31,12 @@ p {
 
 }
 
-
-
 h3 {
     text-align: center;
 }
 .p-comanda {
     text-align: center;
     color: #531cb3;
-    margin-top: 10px;
 }
 
 .buttons-register-return {
@@ -64,13 +61,8 @@ h3 {
         width: 80%;       
     } 
 }
-
-.container-welcome {
-
-}
-
 .container-register {
-    height: 650px;
+    height: 625px;
     margin-bottom: 100px;
     
 }
@@ -105,18 +97,15 @@ h3 {
    margin-bottom: 100px;
 }
 
-.container-do-modal {
-    display: grid;
-}
-
 .container-modal-menu {
-    width: 480px;
-    margin-left: 60px;
-    
+    display: flex;
+    width: 500px;
+    margin-bottom
 }
 
-.container-teste-order {
+.div-btn-prepare-finish-order {
     display: flex;
+    justify-content: center;
 }
 
 .ocultar-senha {
@@ -163,7 +152,7 @@ h3 {
     padding-top: 2em;
 }
 
-.data-ready-order-client {
+.data-ready-order-client, data-ready-order-client-client {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,8 +172,5 @@ h3 {
     justify-content: center;
 }
 
-.container-teste {
-    display: inline-block;
-}
 
 `;
