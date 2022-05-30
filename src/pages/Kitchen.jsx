@@ -1,6 +1,6 @@
 import { GetOrders, OrderStatusUpdate } from "../services/products";
 import { useState, useEffect } from "react";
-import Header from "../components/header/Header";
+import HeaderLogo from "../components/header/HeaderLogo";
 import { BackgroundCard } from "../components/modal-menu/body/MenuCardModalStyle";
 import { ParagraphOrderKitchen } from "../components/style-html-elements/elements-style";
 import {
@@ -9,7 +9,7 @@ import {
 } from "../components/button/ButtonStyle";
 import StyleBackgroundImg from "../components/img-background/style-bg-img";
 import HeaderWelcome from "../components/header/headerWelcome";
-//import { ButtonsHall } from "../components/button/ButtonStyle.js";
+//import { ButtonsHallSeeOrdersSeeOrders } from "../components/button/ButtonStyle.js";
 //import { Link } from "react-router-dom";
 
 const Kitchen = () => {
@@ -70,12 +70,12 @@ const Kitchen = () => {
   return (
     <>
       <StyleBackgroundImg />
-      <Header showLogOut={true} />
+      <HeaderLogo showLogOut={true} />
       <HeaderWelcome />
 
     {/*  <div className="container data-ready-order-client">
         <Link to="/ordersdelivered">
-          <ButtonsHall>Pedidos Entregues</ButtonsHall>
+          <ButtonsHallSeeOrdersSeeOrders>Pedidos EnButtonsHallSeeOrdersttonsHallSeeOrders>
         </Link>
   </div> */}
 

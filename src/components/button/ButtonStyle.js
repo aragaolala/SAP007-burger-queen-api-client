@@ -15,7 +15,7 @@ export const Container = styled.button`
   
 `;
 
-export const ButtonsHall = styled.button `
+export const ButtonsHallSeeOrders = styled.button `
   width: 14rem;
   background: #FF5B27;
   border-radius: 0.4rem;
@@ -54,7 +54,7 @@ export const CancelOrder = styled(BtnKitchenFinishOrder)`
     color: #9d0505;
   }
 `;
-// was green btn
+
 export const BtnSendOrderToKitchenAndPrepareIt = styled(BtnKitchenFinishOrder)`
   background: green;
   color: white;
@@ -73,11 +73,14 @@ export const BtnReadyAndDeliveredOrders = styled(Container)`
   border: none;
 
 `;
+
+// btn "fazer login"
 export const ModalOfMenuOptions = styled(Container)`
-  background: var(--dark-orange);
-  color: red;
+  background: #F7F7FF;
+  color: #262322;
   box-shadow: none;
   border: none;
+  margin-bottom: 10px;
 
   &:hover {
     background: var(--light-orange);
