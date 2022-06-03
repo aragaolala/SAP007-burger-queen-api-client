@@ -35,6 +35,8 @@ const ReadyOrders = () => {
     });
   };
 
+  console.log(orders)
+
   return (
     <>
       <StyleBackgroundImg />

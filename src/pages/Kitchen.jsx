@@ -11,6 +11,7 @@ import StyleBackgroundImg from "../components/img-background/style-bg-img";
 import HeaderWelcome from "../components/header/headerWelcome";
 import { ButtonsHallSeeOrders } from "../components/button/ButtonStyle";
 import { Link } from "react-router-dom";
+import ReadyOrders from "./ReadyOrders";
 
 const Kitchen = () => {
   const [kitchen, setKitchen] = useState([]);
@@ -69,6 +70,12 @@ const Kitchen = () => {
     });
   };
 
+  // pedidos prontos
+  const [readyOrder] = useState([]);
+  const alertOrderIsReady = readyOrder > 0 ? <> ({readyOrder}) </> : null;
+
+  console.log(Kitchen)
+
   return (
     <>
       <StyleBackgroundImg />
@@ -79,12 +86,12 @@ const Kitchen = () => {
         <Link to="/ordersdelivered">
           <ButtonsHallSeeOrders>Pedidos Entregues</ButtonsHallSeeOrders>
         </Link>
-       {/* <Link to="/readyorders">
+       <Link to="/readyorders">
           <ButtonsHallSeeOrders>
             Pedidos Prontos
             {alertOrderIsReady}
           </ButtonsHallSeeOrders>{" "}
-  </Link> */}
+  </Link> 
       </div>
 
       {kitchen.map((item) => (

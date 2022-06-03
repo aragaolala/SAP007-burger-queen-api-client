@@ -105,6 +105,8 @@ const Hall = () => {
       });
     }
 
+    console.log(addOrderSummary)
+
     const updatedMenu = menu.map((item) => {
       if (item.id === idProduct) {
         return { ...item, quantity: quantityProduct };
@@ -116,6 +118,8 @@ const Hall = () => {
     setOrder(updatedOrder);
     totalValue(updatedOrder);
   };
+
+  
 
   const sendSummary = () => {
     if (nameClient !== "" && table !== "" && order.length > 0) {
