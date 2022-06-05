@@ -25,7 +25,6 @@ export const Content = styled.div`
   font-family: "Lato", sans-serif;
 `;
 
-// era o parágrafo "salão", mas resolvi tirar - nao vi necessidade
 export const Title = styled.p`
   color: #f7f7ff;
   width: 100%;

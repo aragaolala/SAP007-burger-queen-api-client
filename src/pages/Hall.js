@@ -105,6 +105,8 @@ const Hall = () => {
       });
     }
 
+    console.log(addOrderSummary);
+
     const updatedMenu = menu.map((item) => {
       if (item.id === idProduct) {
         return { ...item, quantity: quantityProduct };
@@ -205,6 +207,8 @@ const Hall = () => {
       <StyleBackgroundImg />
       <HeaderLogo showLogOut={true} />
 
+      {/* -----------------botões pedidos prontos e entregues ---------------------*/}
+
       <div className="container-client-and-btn">
         <div className="container data-ready-order-client">
           <Link to="/readyorders">
@@ -284,6 +288,8 @@ const Hall = () => {
         </div>
       ) : null}
 
+      {/* ----------------- cardápio ---------------------*/}
+
       <div className="container-teste">
         <HeaderCard onClick={() => handleClick("breakfast")}>
           <Title>Café da Manhã</Title>
@@ -345,7 +351,8 @@ const Hall = () => {
         />
       </div>
 
-      {/* modais pedidos enviados com sucesso ou para cancelar */}
+      {/* ------ modais pedidos enviados com sucesso ou para cancelar ------ */}
+
       <Modal showModal={showModal} setShowModal={setShowModal}>
         <p>Uhuul, pedido enviado com sucesso.</p>
       </Modal>
