@@ -47,7 +47,7 @@ para a cozinha para que sejam preparados de forma ordenada e eficiente.
 
 * Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
 cliente nos pediu para desenvolver uma interface que se integre com a API.
---
+
 * Desta vez temos um projeto 100% por demanda. Você sempre pode (e deve) fazer
 sugestões de melhora e mudança, mas muitas vezes trabalhará em um projeto em que
 primeiro deve se assegurar de cumprir os requisitos.
@@ -95,7 +95,7 @@ Estas são as informações que temos do cliente:
 - A interface deve mostrar os dois menus (café da manhã e restante do dia), cada
 um com todos os seus _produtos_. O usuário deve poder escolher que _produtos_
 adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
---
+
 
 - Além disso a cliente nos deu um [link da documentação](https://lab-api-bq.herokuapp.com/api-docs/)
 que especifica o comportamento esperado da API que iremos expor por HTTP.
@@ -209,20 +209,21 @@ rapidamente aos clientes.
 
 ## 4.💡 Protótipos
 
-Navegação planejada para Mobile First (Tablets)
+Navegação planejada para Mobile First (Tablets). <br>
 Criado com https://balsamiq.cloud/
 
+<div display="inline">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/login-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/register-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/hall-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/kitchen-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/ready-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/delivered-page.png" width="350px">
-
+</div>
 ####  4.1 Paleta de cores:
 Criada com https://coolors.co/
 
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-paleta.png" width="300px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-paleta.png" width="400px">
 
 
 ## 5.📚 Objetivos de aprendizagem
