@@ -1,5 +1,6 @@
 import { Button } from './MenuToggleBtnStyle';
 
+// adicionando ou removendo itens da comanda
 const MenuToggleBtn = ({ callback, idProduct, nameProduct, price, quantityProduct = 0, flavor, complement }) => {
 
   function AddProduct() {

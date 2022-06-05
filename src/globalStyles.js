@@ -33,6 +33,8 @@ p {
 
 h3 {
     text-align: center;
+    color: white;
+    margin: 15px;
 }
 .p-comanda {
     text-align: center;
@@ -42,12 +44,14 @@ h3 {
 .p-voltar {
    color: #531CB3;
    textAlign: center;
-   background-color: #F7F7FF;
+   background-color: #FFAE1A;
    border-radius: 0.4rem;
    text-align: center;
    margin: auto;
-   margin-top: 10px;
-   height: 45px;
+   margin-top: 20px;
+   height: 50px;
+   width: 200px;
+   padding: 11px;
 }
 
 .buttons-register-return {

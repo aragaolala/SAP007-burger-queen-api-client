@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ParagraphUniversal = styled.p`
-  color: #F7F7FF;
+  color: #531CB3;
   margin-top: 0.7em;
   margin-bottom: 0.2em;
   margin-left: 10px;
@@ -23,7 +23,7 @@ export const ParagraphTitleStatusOrder = styled.p `
 
 
 export const ParagraphReadyOrders = styled(ParagraphUniversal)`
-  color: #edcca4;
+  color: #FFAE1A;
   margin-top: 0.7em;
   font-style: italic;
 `;
@@ -43,12 +43,12 @@ font-size: 1em;
 
 font-family: 'Lato', sans-serif;
 border-radius: 0.4rem;
-background-color: #531CB3;
+background-color: rgba(0,0,0, 0.8);
 padding: 10px;
 
 `
 export const OrderSummaryH2 = styled.h2`
-color: var(--dark-orange);
+color: #FFAE1A;
 font-weight: bold;
-font-size: 1.2em;
+font-size: 0.8em;
 `

@@ -1,7 +1,7 @@
 import { BackgroundCardMenuAndOrder, DivProduct } from './MenuCardModalStyle';
 import MenuToggleBtn from '../body/MenuToggleBtn';
 
-
+// modal do cardápio
 const MenuCardModal = ({itens, showCard, callback }) => {
  
 

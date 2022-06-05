@@ -250,14 +250,15 @@ const Hall = () => {
 
         {/* -----------------pedido do cliente---------------------*/}
 
-        {showResume ? (
+       {/* {showResume ? ( */} {/* --- mudando para comanda fixa --- */}
           <div className="container-teste-order">
             <div className="container data-ready-order-client">
               <BackgroundCard>
                 <h3>Comanda</h3>
                 {msgError}
-                <ParagraphUniversal>Cliente: {nameClient}</ParagraphUniversal>
-                <ParagraphUniversal>Mesa: {table}</ParagraphUniversal>
+                
+                <ParagraphUniversal style={{ color: "white"}}>Cliente: {nameClient}</ParagraphUniversal>
+                <ParagraphUniversal style={{ color: "white"}}>Mesa: {table}</ParagraphUniversal>
 
                 {order.map((item, index) => (
                   <DivProduct key={item.id}>
@@ -275,7 +276,7 @@ const Hall = () => {
                     />
                   </DivProduct>
                 ))}
-                <ParagraphUniversal>Total: R$ {allValue} </ParagraphUniversal>
+                <ParagraphUniversal style={{ color: "white"}}>Total: R$ {allValue} </ParagraphUniversal>
 
                 <div className="btn-send-cancelOrder">
                   <CancelOrder onClick={() => confirmcancelOrder()}>
@@ -290,7 +291,7 @@ const Hall = () => {
               </BackgroundCard>
             </div>
           </div>
-        ) : null}
+        {/* ) : null} */}
       </div>
 
       {/* ----------------- cardápio ---------------------*/}
