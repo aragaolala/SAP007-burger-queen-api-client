@@ -298,11 +298,9 @@ Criada com https://coolors.co/
 
 Meu repositório e linkedin:
 
-<div align='center'>
+<div align="center">
 
-|                                                                                                                                                                                  Layssa Aragão                                                                                                                                                                                   |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-: | --- |
-|                                                                                                                                           <img alt="Layssa-Aragão-dev" src="imagens/../src/images/lala-dev.jpeg" height='150px'></img>                                                                                                                                           |
-| <a href='https://github.com/aragaolala'><img alt='GitHub - Layssa' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></img></a> <a href='https://www.linkedin.com/in/layssaaragaob/'><img alt='LinkedIn - Layssa' src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></img></a> |     |     |
-
-</div>
+|Layssa Aragão 
+| ---------------------------
+| <img alt="Layssa-Aragão-dev" src="imagens/../src/images/lala-dev.jpeg" height='150px'>
+| <a href='https://github.com/aragaolala'><img alt='GitHub - Layssa' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></img></a> <a href='https://www.linkedin.com/in/layssaaragaob/'><img alt='LinkedIn - Layssa' src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></img></a>
