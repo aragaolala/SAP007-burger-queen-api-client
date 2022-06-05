@@ -5,24 +5,24 @@
 
 ## Índice
 
-- [1. Prefácio](#1-prefácio)
+- [1. Sobre](#1-sobre)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. Histórias de Usuário](#3-histórias-de-usuário)
 - [4. Protótipos](#4-protótipos)
 - [5. Objetivos de aprendizagem](#5-objetivos-de-aprendizagem)
-- [6. Sobre](#6-sobre)
+- [6. Desenvolvedora](#6-desenvolvedora)
 
 ---
 
-## 1. Sobre o projeto:
+## 1. Sobre:
 
 Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando JavaScript, React, consumo de API externa, CSS e HTML.
 
-Acesso à aplicação - clique <a href="https://">aqui</a>
+Acesso à aplicação <a href="https://">aqui</a>
 
 | Login: atendente - hall | Login: cozinheiro - kitchen |
 | :---------------------: | :-------------------------: |
-|   E-mail: testeteste    |  E-mail: testeteste</img>   |
+|   E-mail: testeteste    |  E-mail: testeteste |
 |       Senha: 0000       |         Senha: 0000         |
 
 </div>
@@ -294,7 +294,7 @@ Criada com https://coolors.co/
 ## 6. 👩🏽‍💻 Desenvolvedora
 
 Olá! Obrigada pela visita =) <br>
-Sou aluna do bootcamp Laboratória e graduanda em Engenharia de Software. Fique à vontade para entrar em contato. 🚀
+Sou aluna do bootcamp Laboratória e graduanda em Engenharia de Software. <br> Fique à vontade para entrar em contato. 🚀
 
 |Layssa Aragão
 | ---------------------------

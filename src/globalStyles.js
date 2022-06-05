@@ -27,27 +27,32 @@ p {
 }
 
 .p-product {
+    color: white;
 
 
 }
 
 h3 {
     text-align: center;
+    color: white;
+    margin: 15px;
 }
 .p-comanda {
     text-align: center;
-    color: #531cb3;
+    color: #F7F7FF;
 }
 
 .p-voltar {
    color: #531CB3;
    textAlign: center;
-   background-color: #F7F7FF;
+   background-color: #FFAE1A;
    border-radius: 0.4rem;
    text-align: center;
    margin: auto;
-   margin-top: 10px;
-   height: 45px;
+   margin-top: 20px;
+   height: 50px;
+   width: 200px;
+   padding: 11px;
 }
 
 .buttons-register-return {
@@ -112,7 +117,7 @@ h3 {
 }
 
 .container-teste-order {
-    margin-left: 24vh;
+    
 }
 
 .div-btn-prepare-finish-order {
@@ -164,8 +169,8 @@ h3 {
     padding-top: 2em;
 }
 
-.data-ready-order-client, data-ready-order-client-client {
-    display: flex;
+.data-ready-order-client {
+    
     align-items: center;
     justify-content: center;
     display: grid;
@@ -174,15 +179,18 @@ h3 {
     margin-right: 0px;
 }
 
-.data-ready-order-client-client {
-    width: 100%;
-    font-size: 1em;
-}
+
 
 .container-client-and-btn {
     display: flex;
     justify-content: center;
+    margin-right: 20px
 }
 
+.btn-send-cancelOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 `;

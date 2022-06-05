@@ -1,5 +1,6 @@
 import { Button } from './MenuToggleBtnStyle';
 
+// adicionando ou removendo itens da comanda
 const MenuToggleBtn = ({ callback, idProduct, nameProduct, price, quantityProduct = 0, flavor, complement }) => {
 
   function AddProduct() {
@@ -16,7 +17,8 @@ const MenuToggleBtn = ({ callback, idProduct, nameProduct, price, quantityProduc
   }
 
 
-  const BtnAddOrRemoveQuantity = (quantityProduct === 0 ? 'black' : 'black')
+  const BtnAddOrRemoveQuantity = (quantityProduct === 0 ? 'black' : 'red')
+  // a quantidade é maior que 0? Se sim, o "menos"fica preto, se não fica vermelho
 
   return (
     <>

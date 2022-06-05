@@ -73,7 +73,7 @@ const ReadyOrders = () => {
 
               <div>
                 <BtnSendOrderToKitchenAndPrepareIt
-                  onClick={() => changeStatus(item, index)}
+                  onClick={() => changeStatus(item, index)} style={{ width: "30vh"}}
                 >
                   {" "}
                   Entregar{" "}
