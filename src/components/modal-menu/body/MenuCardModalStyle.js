@@ -18,7 +18,7 @@ export const BackgroundCard = styled.div`
 export const BackgroundCardMenuAndOrder = styled.div`    
   width: 70vh;
   height: auto;
-  background-color: #F7F7FF;
+  backdrop-filter: blur(30px);
   border-radius: 10px;
   animation: up 1s;
   background-repeat: round;
@@ -28,12 +28,12 @@ export const BackgroundCardMenuAndOrder = styled.div`
 
 
   p {
-    color: black;
+    color: white;
   }
   button {
-    background-color: #F7F7FF;
+    background: none;
     border: none;
-    color: black;
+    color: white;
   }
  
 `;

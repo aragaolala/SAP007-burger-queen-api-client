@@ -27,6 +27,7 @@ p {
 }
 
 .p-product {
+    color: white;
 
 
 }
