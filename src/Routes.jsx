@@ -41,7 +41,7 @@ const AllRoutesApp = () => {
           <Route
             path="/readyorders"
             element={
-              <PrivateRoute permission={["atendente", "cozinheiro"]}>
+              <PrivateRoute permission={["atendente"]}>
                 <ReadyOrders />
               </PrivateRoute>
             }
