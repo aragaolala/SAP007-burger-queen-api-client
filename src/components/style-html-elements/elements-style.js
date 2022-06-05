@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ParagraphUniversal = styled.p`
-  color: #531CB3;
+  color: #F7F7FF;
   margin-top: 0.7em;
   margin-bottom: 0.2em;
+  margin-left: 10px;
   
 `;
 

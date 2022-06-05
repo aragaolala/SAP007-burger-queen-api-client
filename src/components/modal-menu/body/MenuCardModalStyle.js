@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const BackgroundCard = styled.div`    
   width: 70vh;
   height: auto;
-  background-color: #FFAE1A;
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
   border-radius: 10px;
   animation: up 1s;
   background-repeat: round;

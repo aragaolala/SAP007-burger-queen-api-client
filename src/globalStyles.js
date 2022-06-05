@@ -36,7 +36,7 @@ h3 {
 }
 .p-comanda {
     text-align: center;
-    color: #531cb3;
+    color: #F7F7FF;
 }
 
 .p-voltar {
@@ -182,5 +182,10 @@ h3 {
     margin-right: 20px
 }
 
+.btn-send-cancelOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 `;

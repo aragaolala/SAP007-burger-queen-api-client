@@ -222,8 +222,8 @@ const Hall = () => {
           <Link to="/ordersdelivered">
             <ButtonsHallSeeOrders>Pedidos Entregues</ButtonsHallSeeOrders>
           </Link>
-        
-         {/*<div className="container data-ready-order-client"> */}
+
+          {/*<div className="container data-ready-order-client"> */}
           <ClientData
             placeholder="Nome do cliente"
             label="Nome do Cliente"
@@ -276,14 +276,17 @@ const Hall = () => {
                   </DivProduct>
                 ))}
                 <ParagraphUniversal>Total: R$ {allValue} </ParagraphUniversal>
-                <BtnSendOrderToKitchenAndPrepareIt
-                  onClick={() => sendSummary()}
-                >
-                  Enviar
-                </BtnSendOrderToKitchenAndPrepareIt>
-                <CancelOrder onClick={() => confirmcancelOrder()}>
-                  Cancelar
-                </CancelOrder>
+
+                <div className="btn-send-cancelOrder">
+                  <CancelOrder onClick={() => confirmcancelOrder()}>
+                    Cancelar
+                  </CancelOrder>
+                  <BtnSendOrderToKitchenAndPrepareIt
+                    onClick={() => sendSummary()}
+                  >
+                    Enviar
+                  </BtnSendOrderToKitchenAndPrepareIt>
+                </div>
               </BackgroundCard>
             </div>
           </div>

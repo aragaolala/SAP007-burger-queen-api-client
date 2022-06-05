@@ -57,7 +57,7 @@ export const CancelOrder = styled(BtnKitchenFinishOrder)`
 `;
 
 export const BtnSendOrderToKitchenAndPrepareIt = styled(BtnKitchenFinishOrder)`
-  background: green;
+  background: #531CB3;
   color: white;
   border: none;
 
