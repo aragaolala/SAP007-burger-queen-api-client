@@ -51,12 +51,13 @@ export const ClientData = styled.input`
   width: 14rem;
   border: none;
   background-color: #531cb3;
-  margin: 15px;
+  
   text-align: center;
   height: 3.5rem;
   font-size: 20px;
   color: #f7f7ff;
   border-radius: 0.4rem;
+  margin-bottom: 15px;
 
   &&::placeholder {
     font-size: 1em;

@@ -222,8 +222,8 @@ const Hall = () => {
           <Link to="/ordersdelivered">
             <ButtonsHallSeeOrders>Pedidos Entregues</ButtonsHallSeeOrders>
           </Link>
-        </div>
-        <div className="container data-ready-order-client">
+        
+         {/*<div className="container data-ready-order-client"> */}
           <ClientData
             placeholder="Nome do cliente"
             label="Nome do Cliente"
@@ -247,46 +247,48 @@ const Hall = () => {
             min="0"
           />
         </div>
-      </div>
 
-      {/* -----------------pedido do cliente---------------------*/}
+        {/* -----------------pedido do cliente---------------------*/}
 
-      {showResume ? (
-        <div className="container-teste-order">
-          <div className="container container-client-data">
-            <BackgroundCard>
-              <h3>Comanda</h3>
-              {msgError}
-              <ParagraphUniversal>Cliente: {nameClient}</ParagraphUniversal>
-              <ParagraphUniversal>Mesa: {table}</ParagraphUniversal>
+        {showResume ? (
+          <div className="container-teste-order">
+            <div className="container data-ready-order-client">
+              <BackgroundCard>
+                <h3>Comanda</h3>
+                {msgError}
+                <ParagraphUniversal>Cliente: {nameClient}</ParagraphUniversal>
+                <ParagraphUniversal>Mesa: {table}</ParagraphUniversal>
 
-              {order.map((item, index) => (
-                <DivProduct key={item.id}>
-                  <p>
-                    Qtd: {item.quantity} x {item.price}{" "}
-                  </p>
-                  <p> {item.name} </p>
-                  <p>{item.flavor}</p>
-                  <p>{item.complement}</p>
-                  <p> R$ {item.totalProductPrice}</p>
+                {order.map((item, index) => (
+                  <DivProduct key={item.id}>
+                    <p>
+                      Qtd: {item.quantity} x {item.price}{" "}
+                    </p>
+                    <p> {item.name} </p>
+                    <p>{item.flavor}</p>
+                    <p>{item.complement}</p>
+                    <p> R$ {item.totalProductPrice}</p>
 
-                  <MdDelete
-                    onClick={() => remove(index)}
-                    style={{ color: "#d13030", cursor: "pointer" }}
-                  />
-                </DivProduct>
-              ))}
-              <ParagraphUniversal>Total: R$ {allValue} </ParagraphUniversal>
-              <BtnSendOrderToKitchenAndPrepareIt onClick={() => sendSummary()}>
-                Enviar
-              </BtnSendOrderToKitchenAndPrepareIt>
-              <CancelOrder onClick={() => confirmcancelOrder()}>
-                Cancelar
-              </CancelOrder>
-            </BackgroundCard>
+                    <MdDelete
+                      onClick={() => remove(index)}
+                      style={{ color: "#d13030", cursor: "pointer" }}
+                    />
+                  </DivProduct>
+                ))}
+                <ParagraphUniversal>Total: R$ {allValue} </ParagraphUniversal>
+                <BtnSendOrderToKitchenAndPrepareIt
+                  onClick={() => sendSummary()}
+                >
+                  Enviar
+                </BtnSendOrderToKitchenAndPrepareIt>
+                <CancelOrder onClick={() => confirmcancelOrder()}>
+                  Cancelar
+                </CancelOrder>
+              </BackgroundCard>
+            </div>
           </div>
-        </div>
-      ) : null}
+        ) : null}
+      </div>
 
       {/* ----------------- cardápio ---------------------*/}
 

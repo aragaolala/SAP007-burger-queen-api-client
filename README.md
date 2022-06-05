@@ -5,7 +5,7 @@
 
 ## Índice
 
-- [1. Sobre](#1-prefácio)
+- [1. Sobre](#1-sobre)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. Histórias de Usuário](#3-histórias-de-usuário)
 - [4. Protótipos](#4-protótipos)
@@ -14,7 +14,7 @@
 
 ---
 
-## 1. Sobre o projeto:
+## 1. Sobre:
 
 Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando JavaScript, React, consumo de API externa, CSS e HTML.
 

@@ -24,6 +24,7 @@ export const ButtonsHallSeeOrders = styled.button `
   cursor: pointer;
   color: #F7F7FF;
   border: none;
+  margin-bottom: 15px;
   
 `;
 

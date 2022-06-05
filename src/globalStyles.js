@@ -112,7 +112,7 @@ h3 {
 }
 
 .container-teste-order {
-    margin-left: 24vh;
+    
 }
 
 .div-btn-prepare-finish-order {
@@ -164,8 +164,8 @@ h3 {
     padding-top: 2em;
 }
 
-.data-ready-order-client, data-ready-order-client-client {
-    display: flex;
+.data-ready-order-client {
+    
     align-items: center;
     justify-content: center;
     display: grid;
@@ -174,14 +174,12 @@ h3 {
     margin-right: 0px;
 }
 
-.data-ready-order-client-client {
-    width: 100%;
-    font-size: 1em;
-}
+
 
 .container-client-and-btn {
     display: flex;
     justify-content: center;
+    margin-right: 20px
 }
 
 
