@@ -20,15 +20,12 @@ Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando 
 
 Acesso à aplicação - clique <a href="https://">aqui</a>
 
-|Login: atendente - hall  
-| ---------------------------
-|E-mail: testeteste
-|Senha: 0000
+| Login: atendente - hall | Login: cozinheiro - kitchen |
+| :---------------------: | :-------------------------: | --- |
+|   E-mail: testeteste    |  E-mail: testeteste</img>   |
+|       Senha: 0000       |         Senha: 0000         |     |
 
-|Login: cozinheiro - kitchen  
-| -------------------  
-|E-mail: testeteste
-|Senha: 00000
+</div>
 
 ## 2. Resumo do projeto
 
@@ -296,7 +293,7 @@ Criada com https://coolors.co/
 
 ## 6. 👩🏽‍💻 Desenvolvedora
 
-Olá! Obrigada pela visita =) 
+Olá! Obrigada pela visita =) <br>
 Sou aluna do bootcamp Laboratória e graduanda em Engenharia de Software. Fique à vontade para entrar em contato. 🚀
 
 |Layssa Aragão
