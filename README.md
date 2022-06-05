@@ -1,6 +1,7 @@
-# Burger Queen (API Client)
-
-<img alt="logo-laricas-burguer" src="images/../src/images/gif-laricas.gif"  width="300px">
+<h1 align="center">Projeto API Client - Burguer Queen</h1>
+<div align="center">
+   <img alt="logo-laricas-burguer" src="images/../src/images/gif-laricas.gif"  width="300px" >
+</div>
 
 ## Índice
 
@@ -9,34 +10,25 @@
 - [3. Histórias de Usuário](#3-histórias-de-usuário)
 - [4. Protótipos](#4-protótipos)
 - [5. Objetivos de aprendizagem](#5-objetivos-de-aprendizagem)
--
-- [8. Hacker Edition](#6-hacker-edition)
-- [9. Pistas, tips e leituras complementares](#9-pistas-tips-e-leituras-complementares)
+- [6. Sobre](#6-sobre)
 
 ---
 
-## 1. 
+## 1. Sobre o projeto:
 
-[React](https://reactjs.org/), [Angular](https://angular.io/) e
-[Vue](https://vuejs.org/) são alguns dos _frameworks_ e _bibliotecas_ de
-JavaScript mais usados na área de desenvolvimento ao redor do mundo e existe uma
-razão para isso. No contexto do navegador, [_manter a interface sincronizada com
-o estado é
-difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Ao eleger um _framework_ ou _biblioteca_ para nossa interface, nos apoiamos em
-uma série de convenções e implementações _testadas_ e _documentadas_ para
-resolver um problema comum a toda interface web. Isto nos permite concentrar
-melhor (dedicar mais tempo) nas características _específicas_ de nossa
-aplicação.
+Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando JavaScript, React, consumo de API externa, CSS e HTML.
 
-Quando escolhemos uma destas tecnologias não só importamos um pedaço de código
-para reusar (o qual já é um grande valor por si só), mas também adotamos uma
-**arquitetura**, uma série de **princípios de design**, um paradigma, algumas
-**abstrações**, um **vocabulário**, uma **comunidade**, etc...
+Acesso à aplicação - clique <a href="https://">aqui</a>
 
-Como desenvolvedora Front-End, estes kits de desenvolvimento podem resultar em
-uma grande ajuda para implementar rapidamente características dos projetos em que
-você for trabalhar.
+|Login: atendente - hall  
+| ---------------------------
+|E-mail: testeteste
+|Senha: 0000
+
+|Login: cozinheiro - kitchen  
+| -------------------  
+|E-mail: testeteste
+|Senha: 00000
 
 ## 2. Resumo do projeto
 
@@ -44,13 +36,12 @@ Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
 interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
 para a cozinha para que sejam preparados de forma ordenada e eficiente.
 
+- Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
+  cliente nos pediu para desenvolver uma interface que se integre com a API.
 
-* Este projeto tem duas áreas: interface (cliente) e API (servidor). Nosso
-cliente nos pediu para desenvolver uma interface que se integre com a API.
-
-* Desta vez temos um projeto 100% por demanda. Você sempre pode (e deve) fazer
-sugestões de melhora e mudança, mas muitas vezes trabalhará em um projeto em que
-primeiro deve se assegurar de cumprir os requisitos.
+- Desta vez temos um projeto 100% por demanda. Você sempre pode (e deve) fazer
+  sugestões de melhora e mudança, mas muitas vezes trabalhará em um projeto em que
+  primeiro deve se assegurar de cumprir os requisitos.
 
 Estas são as informações que temos do cliente:
 
@@ -93,15 +84,11 @@ Estas são as informações que temos do cliente:
 > seu pedido várias vezes antes de finalizar.
 
 - A interface deve mostrar os dois menus (café da manhã e restante do dia), cada
-um com todos os seus _produtos_. O usuário deve poder escolher que _produtos_
-adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
-
+  um com todos os seus _produtos_. O usuário deve poder escolher que _produtos_
+  adicionar e a interface deve mostrar o _resumo do pedido_ com o custo total.
 
 - Além disso a cliente nos deu um [link da documentação](https://lab-api-bq.herokuapp.com/api-docs/)
-que especifica o comportamento esperado da API que iremos expor por HTTP.
-
-
-
+  que especifica o comportamento esperado da API que iremos expor por HTTP.
 
 ## 3. Histórias de Usuário
 
@@ -222,13 +209,12 @@ Criado com https://balsamiq.cloud/
 </div>
 
 #### 🎨 Paleta de cores:
+
 Criada com https://coolors.co/
 
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-paleta.png" width="400px">
 
-
 ## 5.📚 Objetivos de aprendizagem
-
 
 - [ ] **Uso de HTML semântico**
 
@@ -306,92 +292,17 @@ Criada com https://coolors.co/
 
 - [ ] **Planejar e executar testes de usabilidade**
 
-## 4. Considerações gerais
+</div>
 
-Este projeto deve ser feito em pares. Lembre-se que deverá consumir a
-API [Burger Queen API](https://lab-api-bq.herokuapp.com/api-docs/).
+## 6. 👩🏽‍💻 Desenvolvedora
 
-Trabalhe integralmente uma história de usuário antes de passar para a próxima.
-Cumpra todas as histórias possíveis dentro do tempo especificado.
+Meu repositório e linkedin:
 
-A lógica do projeto deve ser totalmente implementada em JavaScript (ES6 +), HTML
-e CSS e empacotada de forma automatizada.
+<div align='center'>
 
-Neste projeto você deve usar [React](https://beta.reactjs.org/).
+|                                                                                                                                                                                  Layssa Aragão                                                                                                                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-: | --- |
+|                                                                                                                                           <img alt="Layssa-Aragão-dev" src="imagens/../src/images/lala-dev.jpeg" height='150px'></img>                                                                                                                                           |
+| <a href='https://github.com/aragaolala'><img alt='GitHub - Layssa' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></img></a> <a href='https://www.linkedin.com/in/layssaaragaob/'><img alt='LinkedIn - Layssa' src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></img></a> |     |     |
 
-O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
-de um _tablet_, mas **não queremos um aplicativo nativo**, mas sim um aplicativo
-Web que seja **mobile-first**.
-
-Precisamos pensar bem sobre o UX para aqueles que vão receber os pedidos, o
-tamanho e a aparência dos botões, a visibilidade do estado atual do pedido, etc.
-
-O aplicativo deve fazer uso de `npm-scripts` e ter scripts `start`, `test`,
-`build` e `deploy`, que são responsáveis por inicializar, rodar os testes,
-empacotar e fazer deploy do aplicativo, respectivamente.
-
-Os testes unitários devem cobrir um mínimo de 70% de _statements_, _functions_,
-_lines_ e _branches_.
-
-Por outro lado, vocês devem definir a estrutura das pastas e arquivos que considerem
-necessários. Você pode estruturá-los de acordo com as convenções do _framework_ escolhido.
-Portanto, os _testes_ e os _setups_ necessários para executá-los
-serão feitos por você.
-
-## 6. Hacker Edition
-
-As seções chamadas Hacker Edition são opcionais. Se você terminou tudo e ainda sobrou tempo, faça essa parte. Assim você poderá aprofundar e exercitar mais sobre os objetivos de aprendizagem do projeto.
-
-A aplicação deve seguir 80% ou mais das pontuações de Performance, Progressive
-Web App, Accessibility e Best Practices do [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
-## 7. Pistas, tips e leituras complementares
-
-### Primeiros passos
-
-1. Faça um _fork_ deste repositório (no GitHub).
-
-2. Clone seu _fork_ no seu computador:
-
-   ```sh
-   git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
-   cd <cohortid>-burger-queen
-   ```
-
-3. Crie uma branch a partir da `main` para começar a trabalhar. Por exemplo:
-
-   ```sh
-   git checkout -b develop
-   ```
-
-4. Veja o video de configuração inicial para você poder começar com o _front-end_ :wink:.
-
----
-
-### Frameworks / bibliotecas
-
-- [React](https://reactjs.org/)
-- [React beta - versão em construção usando Hooks ](https://beta.reactjs.org/)
-- [Create React App](https://create-react-app.dev/docs/getting-started)
-- [Configuração inicial (vídeo)](https://youtu.be/38iZjr-jH5E)
-
-### Ferramentas
-
-- [npm-scripts](https://docs.npmjs.com/misc/scripts)
-- [Babel](https://babeljs.io/)
-- [webpack](https://webpack.js.org/)
-
-### Rotas
-
-- [React Router](https://reactrouter.com/web/guides/quick-start)
-
-### PWA
-
-- [Seu primeiro Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
-- [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
-
-### Deploy
-
-- Veja a documentação [de deploy do Create React App](https://create-react-app.dev/docs/deployment).
-  Você pode utilizar qualquer um dos serviços listados na documentação,
-  sendo recomendado o Firebase, Vercel, Netlify, Github Pages ou Heroku.
+</div>
