@@ -21,9 +21,9 @@ Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando 
 Acesso à aplicação - clique <a href="https://">aqui</a>
 
 | Login: atendente - hall | Login: cozinheiro - kitchen |
-| :---------------------: | :-------------------------: | --- |
+| :---------------------: | :-------------------------: |
 |   E-mail: testeteste    |  E-mail: testeteste</img>   |
-|       Senha: 0000       |         Senha: 0000         |     |
+|       Senha: 0000       |         Senha: 0000         |
 
 </div>
 
