@@ -220,7 +220,7 @@ Criado com https://balsamiq.cloud/
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/ready-page.png" width="350px">
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/delivered-page.png" width="350px">
 </div>
-####  4.1 Paleta de cores:
+#### 🎨 Paleta de cores:
 Criada com https://coolors.co/
 
 <img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-paleta.png" width="400px">
