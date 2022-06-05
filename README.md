@@ -218,14 +218,14 @@ rapidamente aos clientes.
 
 ## 4. Protótipos
 
-Navegação planejada para Mobile First focado em Tablets
+Navegação planejada para Mobile First (Tablets)
 <div display="inline"  >
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/login-page.png" width="300px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/register-page.png" width="300px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/hall-page.png" width="300px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/kitchen-page.png" width="300px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/ready-page.png" width="300px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/delivered-page.png" width="300px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/login-page.png" width="350px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/register-page.png" width="350px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/hall-page.png" width="350px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/kitchen-page.png" width="350px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/ready-page.png" width="350px">
+<img alt="img-girl-power" src="imagens/../src/imagens/../images/delivered-page.png" width="350px">
 
 
 
