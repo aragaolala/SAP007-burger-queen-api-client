@@ -296,7 +296,8 @@ Criada com https://coolors.co/
 
 ## 6. 👩🏽‍💻 Desenvolvedora
 
-Meu repositório e linkedin:
+Olá! Obrigada pela visita =) 
+Sou aluna do bootcamp Laboratória e graduanda em Engenharia de Software. Fique à vontade para entrar em contato. 🚀
 
 |Layssa Aragão
 | ---------------------------
