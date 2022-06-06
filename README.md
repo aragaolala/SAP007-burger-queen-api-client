@@ -209,7 +209,7 @@ Criado com https://balsamiq.cloud/
 
 Criada com https://coolors.co/
 
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-pallete.png" width="400px">
+<img alt="paleta" src="images/../src/images/bq-palette.png" width="400px">
 
 ## 5.📚 Objetivos de aprendizagem
 
