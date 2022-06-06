@@ -6,7 +6,7 @@ export const Container = styled.header `
     justify-content: space-evenly;
     border-bottom: 1px solid #474747;
     padding-bottom: 1em;  
-    background-color: #FFAE1A;  
+    background-color: #FFE74C;  
     margin-top: 100px;
 
     

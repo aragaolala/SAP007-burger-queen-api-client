@@ -29,6 +29,7 @@ const LoginUser = () => {
           onSubmit={handleSubmit}
         >
           <Input
+            className="input-group"
             label="Email:"
             id="email"
             name="email"

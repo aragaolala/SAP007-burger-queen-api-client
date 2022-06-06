@@ -12,7 +12,7 @@ export const ButtonCard = styled.button`
     rgb(255 255 255 / 9%) 0px 10px 10px;
 
   &&:hover {
-    background-color: #ffae1a;
+    background-color: #FFE74C;
   }
 `;
 export const Content = styled.div`

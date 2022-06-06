@@ -45,7 +45,7 @@ h3 {
 .p-voltar {
    color: #531CB3;
    textAlign: center;
-   background-color: #FFAE1A;
+   background-color: #FFE66D;
    border-radius: 0.4rem;
    text-align: center;
    margin: auto;
@@ -74,7 +74,7 @@ h3 {
     } 
 }
 .container-register {
-    height: 100vh;
+    height: 120vh;
     margin-bottom: 100px;
     
 }
@@ -86,7 +86,7 @@ h3 {
 
 .container-login, .container-register {
   
-    background-color: #F7F7FF;
+    backdrop-filter: blur(30px);
     padding-top: 20px;
     width: 70vh;
     display: flex;
@@ -192,5 +192,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
+
 
 `;

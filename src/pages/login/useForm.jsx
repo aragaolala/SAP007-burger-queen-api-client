@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { LoginWithEmailPassword } from "../../services/api-auth";
+import { LoginEmailPassword } from "../../services/api-auth";
 
 const useForm = (validation) => {
   localStorage.clear();
@@ -44,7 +44,7 @@ const useForm = (validation) => {
     setErrors(validations);
 
     if (validations.ok) {
-      LoginWithEmailPassword(values.email, values.password)
+      LoginEmailPassword(values.email, values.password)
         .then((response) => {
           if (
             response.code &&
