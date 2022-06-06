@@ -10,7 +10,7 @@ export const createUser = async (name, email, password, role) => {
       email: email,
       password: password,
       role: role,
-      restaurant: "Laricas Burguer",
+      restaurant: "Brasa Burguer",
     }),
   }).then((res) => res.json());
 };

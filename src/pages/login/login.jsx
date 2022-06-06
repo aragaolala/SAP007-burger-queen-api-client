@@ -47,7 +47,7 @@ const LoginUser = () => {
             name="password"
             type="password"
             onChange={handleChange}
-            placeholder="Deixe-me adivinhar: é batatinha?"
+            placeholder="Vou adivinhar: é batatinha?"
           />
           <LoginRegisterParagraph>
             {errors.password && errors.password}
