@@ -20,10 +20,10 @@ Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando 
 
 Acesso à aplicação <a href="https://">aqui</a>
 
-| Login: atendente - hall | Login: cozinheiro - kitchen |
-| :---------------------: | :-------------------------: |
-|   E-mail: testeteste    |  E-mail: testeteste |
-|       Senha: 0000       |         Senha: 0000         |
+|   Login: atendente - hall   | Login: cozinheiro - kitchen |
+| :-------------------------: | :-------------------------: |
+| E-mail: atendente@teste.com |   E-mail: chef@teste.com    |
+|        Senha: 123456        |        Senha: 123456        |
 
 </div>
 
