@@ -1,6 +1,6 @@
 <h1 align="center">Projeto API Client - Burguer Queen</h1>
 <div align="center">
-   <img alt="logo-laricas-burguer" src="images/../src/images/gif-laricas.gif"  width="300px" >
+   <img alt="logo-brasa-burguer" src="images/../src/images/logo-gif.gif"  width="300px" >
 </div>
 
 ## Índice
@@ -197,12 +197,12 @@ Navegação planejada para Mobile First (Tablets). <br>
 Criado com https://balsamiq.cloud/
 
 <div display="inline">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/login-page.png" width="350px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/register-page.png" width="350px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/hall-page.png" width="350px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/kitchen-page.png" width="350px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/ready-page.png" width="350px">
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/delivered-page.png" width="350px">
+<img alt="" src="imagens/../src/imagens/../images/login-page.png" width="350px">
+<img alt="" src="imagens/../src/imagens/../images/register-page.png" width="350px">
+<img alt="" src="imagens/../src/imagens/../images/hall-page.png" width="350px">
+<img alt="" src="imagens/../src/imagens/../images/kitchen-page.png" width="350px">
+<img alt="" src="imagens/../src/imagens/../images/ready-page.png" width="350px">
+<img alt="delivered" src="imagens/../src/imagens/../images/delivered-page.png" width="350px">
 </div>
 
 #### 🎨 Paleta de cores:
@@ -210,6 +210,11 @@ Criado com https://balsamiq.cloud/
 Criada com https://coolors.co/
 
 <img alt="paleta" src="images/../src/images/bq-palette.png" width="400px">
+
+#### 🎨 Resultado:
+
+<img alt="paleta" src="images/../src/images/bq-result2.gif" width="300px">
+
 
 ## 5.📚 Objetivos de aprendizagem
 

@@ -1,4 +1,4 @@
-import img from '../../images/logo5.png'
+import img from '../../images/logo3.png'
 import { Container } from './HeaderLogoStyle';
 import { Logout } from '../logout/Logout';
 
