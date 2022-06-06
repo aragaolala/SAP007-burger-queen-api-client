@@ -12,6 +12,11 @@ export const BackgroundCard = styled.div`
   
   padding-bottom: 23px;
   margin-bottom: 30px;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 50vh;
+    margin-left: 10px;
+  }
  
 `;
 // style apenas do modal menu em MenuCardModal.js 

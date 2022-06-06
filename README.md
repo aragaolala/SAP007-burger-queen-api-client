@@ -20,10 +20,10 @@ Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando 
 
 Acesso à aplicação <a href="https://">aqui</a>
 
-| Login: atendente - hall | Login: cozinheiro - kitchen |
-| :---------------------: | :-------------------------: |
-|   E-mail: testeteste    |  E-mail: testeteste |
-|       Senha: 0000       |         Senha: 0000         |
+|   Login: atendente - hall   | Login: cozinheiro - kitchen |
+| :-------------------------: | :-------------------------: |
+| E-mail: atendente@teste.com |   E-mail: chef@teste.com    |
+|        Senha: 123456        |        Senha: 123456        |
 
 </div>
 
@@ -209,7 +209,7 @@ Criado com https://balsamiq.cloud/
 
 Criada com https://coolors.co/
 
-<img alt="img-girl-power" src="imagens/../src/imagens/../images/bg-paleta.png" width="400px">
+<img alt="paleta" src="images/../src/images/bq-palette.png" width="400px">
 
 ## 5.📚 Objetivos de aprendizagem
 

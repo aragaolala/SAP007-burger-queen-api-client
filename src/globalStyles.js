@@ -24,6 +24,9 @@ body {
 p {
     color: #F7F7FF;
     font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 .p-product {
@@ -38,14 +41,14 @@ h3 {
     margin: 15px;
 }
 .p-comanda {
-    text-align: center;
+    
     color: #F7F7FF;
 }
 
 .p-voltar {
    color: #531CB3;
    textAlign: center;
-   background-color: #FFAE1A;
+   background-color: #FFE66D;
    border-radius: 0.4rem;
    text-align: center;
    margin: auto;
@@ -62,15 +65,17 @@ h3 {
 
 .container {
     
-    width: 70vh;
+    width: 80vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     border-radius: 12px;
     
 
-    @media (min-width: 1024px) {
-        width: 80%;       
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .data-ready-order-client {
+            display: grid;
+        }
     } 
 }
 .container-register {
@@ -80,15 +85,15 @@ h3 {
 }
 
 .container-login {
-    height: 415px;
+    height: 450px;
     margin-bottom: 100px;
 }
 
 .container-login, .container-register {
   
-    background-color: #F7F7FF;
+    backdrop-filter: blur(30px);
     padding-top: 20px;
-    width: 70vh;
+    width: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,9 +121,7 @@ h3 {
     text-align: left;
 }
 
-.container-teste-order {
-    
-}
+
 
 .div-btn-prepare-finish-order {
     display: flex;
@@ -171,20 +174,21 @@ h3 {
 
 .data-ready-order-client {
     
-    align-items: center;
-    justify-content: center;
-    display: grid;
     
-    margin-left: 0px;
-    margin-right: 0px;
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        display: grid;
+    }
 }
 
 
 
 .container-client-and-btn {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-right: 20px
+   
+    margin-left: 230px;
 }
 
 .btn-send-cancelOrder {
@@ -192,5 +196,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
+
 
 `;

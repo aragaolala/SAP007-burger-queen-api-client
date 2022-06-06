@@ -14,8 +14,9 @@ export const createUser = async (name, email, password, role) => {
     }),
   }).then((res) => res.json());
 };
+console.log(createUser)
 
-export const LoginWithEmailPassword = async (email, password) => {
+export const LoginEmailPassword = async (email, password) => {
   return await fetch(`${baseURL}/auth`, {
     method: "POST",
     headers,
@@ -25,3 +26,4 @@ export const LoginWithEmailPassword = async (email, password) => {
     }),
   }).then((res) => res.json());
 };
+console.log(LoginEmailPassword)

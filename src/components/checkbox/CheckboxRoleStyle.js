@@ -9,11 +9,13 @@ export const InputCheckboxRole = styled.input`
   height: 16px;
   display: inline-block;
   margin-right: 0.7em;
+  margin-top: 0.7em;
 `;
 
 export const Label = styled.label`
   font-size: 14px;
   cursor: pointer;
+  color: whitesmoke;
   @media (min-width: 768px) {
     font-size: 20px;
   }
