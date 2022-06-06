@@ -41,7 +41,7 @@ h3 {
     margin: 15px;
 }
 .p-comanda {
-    text-align: center;
+    
     color: #F7F7FF;
 }
 

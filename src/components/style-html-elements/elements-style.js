@@ -9,7 +9,7 @@ export const ParagraphUniversal = styled.p`
 `;
 
 export const ParagraphOrderKitchen = styled.p `
-  color: black;
+  color: #FFE74C;
   font-size: 20px;
   padding-top: 10px;
   text-align: center;
