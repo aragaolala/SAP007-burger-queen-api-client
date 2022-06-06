@@ -36,7 +36,7 @@ const Hall = () => {
   const [table, setTable] = useState("");
   const [order, setOrder] = useState([]);
   const [allValue, setAllValue] = useState("");
-  const [showResume, setShowResume] = useState(false);
+  const [setShowResume] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [showCancelModal, setShowCancelModal] = useState(false);
   const [menu, setMenu] = useState([]);
@@ -251,7 +251,7 @@ const Hall = () => {
         {/* -----------------pedido do cliente---------------------*/}
 
        {/* {showResume ? ( */} {/* --- mudando para comanda fixa --- */}
-          <div className="container-teste-order">
+          <div className="">
             <div className="container data-ready-order-client">
               <BackgroundCard>
                 <h3>Comanda</h3>

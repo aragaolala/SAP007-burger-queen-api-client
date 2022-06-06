@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const StyleInput = styled.input`
   color: yellow;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   background: none;
   outline: none;
   padding: 0.8rem;
