@@ -213,7 +213,7 @@ Criada com https://coolors.co/
 
 #### 🎨 Resultado:
 
-<img alt="paleta" src="images/../src/images/bq-result2.gif" width="300px">
+<img alt="paleta" src="images/../src/images/gif-result.gif" width="300px">
 
 
 ## 5.📚 Objetivos de aprendizagem
