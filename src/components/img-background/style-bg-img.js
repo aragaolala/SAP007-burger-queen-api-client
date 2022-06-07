@@ -1,8 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import img from '../../images/burguer-capa2.jpeg';
-import ImgForMediaQuery from '../../images/burguer-capa2.jpeg';
 
-const StyleBackgroundImg = styled.div `
+const StyleBackgroundImg = styled.div`
    
    background-image: url(${img});
     background-repeat: no-repeat;
@@ -16,9 +15,9 @@ const StyleBackgroundImg = styled.div `
     filter: blur(4px);
 
     @media screen and (min-width: 768px) {
-        background-image: url(${ImgForMediaQuery});
+        background-image: url(${img});
     
     }
 
-`
-export default StyleBackgroundImg
+`;
+export default StyleBackgroundImg;

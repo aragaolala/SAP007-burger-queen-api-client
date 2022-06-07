@@ -1,20 +1,19 @@
-import UseForm from "./useForm";
-import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
-import ErrorsMessage from "./register-valid";
-import { useState } from "react";
-import Modal from "../../components/modal/Modal";
-import { Link } from "react-router-dom";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
-import StyleBackgroundImg from "../../components/img-background/style-bg-img";
-import CheckboxRole from "../../components/checkbox/CheckboxRole";
-import { LoginRegisterParagraph } from "../../components/style-html-elements/elements-style";
-import { ModalOfMenuOptions } from "../../components/button/ButtonStyle";
-import HeaderLogo from "../../components/header/HeaderLogo";
-import { useNavigate } from "react-router-dom";
+import { React, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import UseForm from './useForm';
+import Input from '../../components/input/Input';
+import Button from '../../components/button/Button';
+import ErrorMessages from './register-valid';
+import Modal from '../../components/modal/Modal';
+import StyleBackgroundImg from '../../components/img-background/style-bg-img';
+import CheckboxRole from '../../components/checkbox/CheckboxRole';
+import { LoginRegisterParagraph } from '../../components/style-html-elements/elements-style';
+import { ModalOfMenuOptions } from '../../components/button/ButtonStyle';
+import HeaderLogo from '../../components/header/HeaderLogo';
 
-const Register = () => {
-  const { handleChange, handleSubmit, errors } = UseForm(ErrorsMessage);
+function Register() {
+  const { handleChange, handleSubmit, errors } = UseForm(ErrorMessages);
   const [showPassword, setShowPassword] = useState(false);
 
   const [showModal, setShowModal] = useState(false);
@@ -25,7 +24,7 @@ const Register = () => {
   };
 
   const navigate = useNavigate();
-  const handleLogin = () => navigate("/login");
+  const handleLogin = () => navigate('/login');
 
   const callModal = () => {
     setShowModal((prev) => !prev);
@@ -68,7 +67,7 @@ const Register = () => {
           label="Senha"
           id="password"
           name="password"
-          type={showPassword ? "type" : "password"}
+          type={showPassword ? 'type' : 'password'}
           onChange={handleChange}
           placeholder="Pelo menos 6 caracteres"
         />
@@ -80,7 +79,7 @@ const Register = () => {
           )}
         </span>
         <LoginRegisterParagraph>
-          {" "}
+          {' '}
           {errors.password && errors.password}
         </LoginRegisterParagraph>
 
@@ -111,7 +110,7 @@ const Register = () => {
             />
           </div>
           <LoginRegisterParagraph>
-            {" "}
+            {' '}
             {errors.role && errors.role}
           </LoginRegisterParagraph>
         </div>
@@ -125,7 +124,7 @@ const Register = () => {
       </form>
       <Modal showModal={showModal} setShowModal={setShowModal}>
         <p>Cadastro realizado com sucesso!</p>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: 'center' }}>
           <Link to="/login">
             <ModalOfMenuOptions>Fazer Login</ModalOfMenuOptions>
           </Link>
@@ -133,6 +132,6 @@ const Register = () => {
       </Modal>
     </section>
   );
-};
+}
 
 export default Register;

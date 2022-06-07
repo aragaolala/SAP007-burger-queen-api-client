@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-// modal do menu e da comanda - fundo 
+// modal do menu e da comanda - fundo
 export const BackgroundCard = styled.div`    
   width: 70vh;
   height: auto;
@@ -19,7 +19,7 @@ export const BackgroundCard = styled.div`
   }
  
 `;
-// style apenas do modal menu em MenuCardModal.js 
+// style apenas do modal menu em MenuCardModal.js
 export const BackgroundCardMenuAndOrder = styled.div`    
   width: 70vh;
   height: auto;

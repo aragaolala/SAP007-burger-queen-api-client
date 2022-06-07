@@ -1,3 +1,4 @@
+import React from 'react';
 import AllRoutesApp from './Routes';
 import AllStyles from './globalStyles';
 

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { MdClose } from 'react-icons/md'
+import { MdClose } from 'react-icons/md';
 import burguerGif from '../../images/burguer.gif';
 
 // fundo do modal "pedido eviado" - que deixa tudo preto e com transparência
-export const Background = styled.div `
+export const Background = styled.div`
 width: 100%;
 height: 100%;
 background: rgba(0, 0, 0, 0.8);
@@ -12,10 +12,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 top: 0;
-`
+`;
 
-// modal pedido enviado com sucesso 
-export const ModalWrapper = styled.div `
+// modal pedido enviado com sucesso
+export const ModalWrapper = styled.div`
 width: 100%;
 height: 53vh;
 box-shadow: 0 0px 63px #a2835f;
@@ -49,9 +49,9 @@ height: 55vh;
 }
 
 
-`
+`;
 // modal do pedido enviado para a cozinha - que será visto pelo cozinheiro
-export const ModalContent = styled.div `
+export const ModalContent = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -68,7 +68,7 @@ justify-content: space-between;
 `;
 
 // para fechar o modal "pedido enviado com sucesso"
-export const CloseModalOfMenuOptions = styled(MdClose) `
+export const CloseModalOfMenuOptions = styled(MdClose)`
 cursor: pointer;
 background-color: #F7F7FF;
 border-radius: 25px;

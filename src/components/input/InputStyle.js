@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: inline-block;
@@ -72,11 +72,11 @@ export const ClientData = styled.input`
 
 /*
 export const ClientData = styled.input`
- 
+
   width: 14rem;
   border: none;
   background-color: #531cb3;
-  
+
   text-align: center;
   height: 3.5rem;
   font-size: 20px;

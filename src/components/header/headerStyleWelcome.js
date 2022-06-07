@@ -1,5 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 // import img from '../../images/welcome.gif';
+/* eslint-disable */
 
 export const ContainerWelcome = styled.header`
   display: flex;
@@ -24,6 +25,6 @@ export const ContainerWelcome = styled.header`
         width: 100px;
         margin-top: 0.70em;
         margin-left: 128px;
-                       
+
     }
 */

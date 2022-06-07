@@ -1,13 +1,14 @@
 // import img from "../../images/welcome.gif";
-import { ContainerWelcome } from "./headerStyleWelcome";
+import React from 'react';
+import { ContainerWelcome } from './headerStyleWelcome';
 
-const HeaderWelcome = () => {
+function HeaderWelcome() {
   return (
     <ContainerWelcome className="container container-welcome">
       <p>Seja bem vinda, colaboradora!</p>
     </ContainerWelcome>
   );
-};
+}
 
 export default HeaderWelcome;
 

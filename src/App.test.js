@@ -1,8 +1,8 @@
-import { fireEvent, render, screen } from "@testing-library/react";
-import LoginUser from "../src/pages/login/login";
-import Register from "../src/pages/register/Register";
-import Button from "../src/components/button/Button";
-import Input from "../src/components/input/Input";
+import { fireEvent, render, screen } from '@testing-library/react';
+import LoginUser from './pages/login/login';
+import Register from './pages/register/Register';
+import Button from './components/button/Button';
+import Input from './components/input/Input';
 
 /* eslint-disable */
 // testes login e registro

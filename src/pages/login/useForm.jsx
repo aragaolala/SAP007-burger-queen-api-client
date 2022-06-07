@@ -1,19 +1,20 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { LoginEmailPassword } from "../../services/api-auth";
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { LoginEmailPassword } from '../../services/api-auth';
 
+/* eslint-disable */
 const useForm = (validation) => {
   localStorage.clear();
-  const [messageError, setMessageError] = useState("");
+  const [messageError, setMessageError] = useState('');
 
   const [values, setValues] = useState({
-    email: "",
-    password: "",
+    email: '',
+    password: '',
   });
 
   const [errors, setErrors] = useState({
-    email: "",
-    password: "",
+    email: '',
+    password: '',
   });
 
   const handleChange = (e) => {
@@ -31,10 +32,10 @@ const useForm = (validation) => {
   const navigate = useNavigate();
 
   const routerHall = () => {
-    navigate("/hall");
+    navigate('/hall');
   };
   const routerKitchen = () => {
-    navigate("/kitchen");
+    navigate('/kitchen');
   };
 
   const handleSubmit = (e) => {
@@ -47,26 +48,26 @@ const useForm = (validation) => {
       LoginEmailPassword(values.email, values.password)
         .then((response) => {
           if (
-            response.code &&
-            (response.code === 400 || response.code === 403)
+            response.code
+            && (response.code === 400 || response.code === 403)
           ) {
             alert(response.message);
           } else {
-            localStorage.setItem("role", response.role)
-            localStorage.setItem("token", response.token);
-            localStorage.setItem("id", response.id);
+            localStorage.setItem('role', response.role);
+            localStorage.setItem('token', response.token);
+            localStorage.setItem('id', response.id);
 
-            if (response.role === "atendente") {
+            if (response.role === 'atendente') {
               routerHall();
-            } else if (response.role === "cozinheiro") {
+            } else if (response.role === 'cozinheiro') {
               routerKitchen();
             } else {
-              alert("Hmm, função desconhecida " + response.role);
+              alert(`Hmm, função desconhecida ${response.role}`);
             }
           }
         })
         .catch((error) => {
-          setMessageError("Ops, algo deu errado. [" + error.message + "]");
+          setMessageError(`Ops, algo deu errado. [${error.message}]`);
           console.log(messageError);
         });
     }

@@ -1,23 +1,24 @@
-import { useState } from "react";
-import { createUser } from "../../services/api-auth";
+import { useState } from 'react';
+import { createUser } from '../../services/api-auth';
 
+/* eslint-disable */
 const UseForm = (validation) => {
   localStorage.clear();
 
   const [values, setValues] = useState({
-    name: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
-    role: "",
+    name: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+    role: '',
   });
 
   const [errors, setErrors] = useState({
-    name: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
-    role: "",
+    name: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+    role: '',
   });
 
   const handleChange = (e) => {
@@ -40,8 +41,8 @@ const UseForm = (validation) => {
       createUser(values.name, values.email, values.password, values.role)
         .then((response) => {
           if (
-            response.code &&
-            (response.code === 400 || response.code === 403)
+            response.code
+            && (response.code === 400 || response.code === 403)
           ) {
             alert(response.message);
           } else {
@@ -49,7 +50,7 @@ const UseForm = (validation) => {
           }
         })
         .catch((error) => {
-          console.log("Erro na requisição. [" + error.message + "]");
+          console.log(`Erro na requisição. [${error.message}]`);
         });
     }
   };

@@ -1,19 +1,20 @@
-import useForm from "./useForm";
-import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
-import ErrorsMessage from "./loginValidation";
-import { Link } from "react-router-dom";
-import StyleBackgroundImg from "../../components/img-background/style-bg-img";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import useForm from './useForm';
+import Input from '../../components/input/Input';
+import Button from '../../components/button/Button';
+import ErrorMessages from './loginValidation';
+import StyleBackgroundImg from '../../components/img-background/style-bg-img';
 import {
   LinkToRegisterStyle,
   ParagraphUniversal,
-} from "../../components/style-html-elements/elements-style";
-import { LoginRegisterParagraph } from "../../components/style-html-elements/elements-style";
-import HeaderLogo from "../../components/header/HeaderLogo";
-import HeaderWelcome from "../../components/header/headerWelcome";
+  LoginRegisterParagraph,
+} from '../../components/style-html-elements/elements-style';
+import HeaderLogo from '../../components/header/HeaderLogo';
+import HeaderWelcome from '../../components/header/headerWelcome';
 
-const LoginUser = () => {
-  const { handleChange, handleSubmit, errors } = useForm(ErrorsMessage);
+function LoginUser() {
+  const { handleChange, handleSubmit, errors } = useForm(ErrorMessages);
 
   return (
     <>
@@ -62,6 +63,6 @@ const LoginUser = () => {
       </section>
     </>
   );
-};
+}
 
 export default LoginUser;

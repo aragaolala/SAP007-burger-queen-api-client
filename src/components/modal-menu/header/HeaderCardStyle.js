@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 // botoes dos menus que abrem os modais com os cardápios
 export const ButtonCard = styled.button`
