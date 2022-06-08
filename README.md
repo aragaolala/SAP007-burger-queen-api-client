@@ -209,14 +209,14 @@ Criado com https://balsamiq.cloud/
 
 Criada com https://coolors.co/
 
-<img alt="paleta" src="images/../src/images/bq-palette.png" width="400px">
+<img alt="paleta" src="images/../src/images/bq-palette.png" width="300px">
 
 #### 🎨 Resultado:
 
-<img alt="paleta" src="images/../src/images/foto-login.png" width="300px">
-<img alt="paleta" src="images/../src/images/sucesso-pedido.png" width="300px">
+<img alt="paleta" src="images/../src/images/foto-login.png" width="400px">
+<img alt="paleta" src="images/../src/images/sucesso-pedido.png" width="400px">
 
-<img alt="paleta" src="images/../src/images/gif-result.gif">
+<img alt="paleta" src="images/../src/images/gif-result.gif" width="300px">
 
 ## 5.📚 Objetivos de aprendizagem
 
