@@ -16,7 +16,7 @@ import { PrivateRoute } from './components/PrivateRoute';
 
 function AllRoutesApp() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Routes>
           <Route path="/" element={<Login />} />
