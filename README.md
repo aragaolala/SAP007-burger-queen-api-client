@@ -16,9 +16,9 @@
 
 ## 1. Sobre:
 
-Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando JavaScript, React, consumo de API externa, CSS e HTML.
+Este projeto foi desenvolvido no Bootcamp Laboratória em 5 sprints, utilizando JavaScript, React, consumo de API externa, CSS e HTML. Desenvolvido para tablets, conforme requisições do cliente.
 
-Acesso à aplicação <a href="https://">aqui</a>
+Acesso à aplicação <a href="https://aragaolala.github.io/SAP007-burger-queen-api-client/">aqui</a>
 
 |   Login: atendente - hall   | Login: cozinheiro - kitchen |
 | :-------------------------: | :-------------------------: |
