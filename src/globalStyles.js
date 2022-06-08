@@ -14,7 +14,7 @@ body {
     color: ;
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
-    background-color: #F7F7FF;
+    background-color: black;
 
     @media (min-width: 768px) {
     font-size: 1.5em;
@@ -75,6 +75,7 @@ h3 {
     @media (min-width: 768px) and (max-width: 1024px) {
         .data-ready-order-client {
             display: grid;
+            
         }
     } 
 }
@@ -106,6 +107,11 @@ h3 {
 .container-client-data {
     width: 350px;
     display: inline-block
+
+    @media (min-width: 1025) {
+        width = 780px;
+            
+        }
 }
 
 .container-menu {

@@ -35,14 +35,13 @@ function Hall() {
   const [table, setTable] = useState('');
   const [order, setOrder] = useState([]);
   const [allValue, setAllValue] = useState('');
-  const [setShowResume] = useState(false);
+  const [setShowOrderSummary] = []; // useState(false);
   const [showModal, setShowModal] = useState(false);
   const [showCancelModal, setShowCancelModal] = useState(false);
   const [menu, setMenu] = useState([]);
   const [readyOrder, setReadyOrder] = useState([]);
 
   /* eslint-disable */
-  
   useEffect(() => {
     RenderAllProducts()
       .then((json) => setMenu(json))
@@ -132,7 +131,7 @@ function Hall() {
 
       PostOrders(nameClient, table, allProducts).then(() => {
         setShowModal(true);
-        setShowResume(false);
+        setShowOrderSummary;
         setNameClient('');
         setTable('');
         setMenu(
@@ -175,7 +174,7 @@ function Hall() {
     setAllValue(total);
 
     if (total > 0) {
-      setShowResume(true);
+      setShowOrderSummary;
     } else {
       total = 0;
     }
@@ -191,7 +190,7 @@ function Hall() {
 
   const cancelOrder = () => {
     setShowCancelModal(false);
-    setShowResume(false);
+    setShowOrderSummary;
   };
 
   const msgError = nameClient === '' || table === '' ? (
@@ -256,12 +255,8 @@ function Hall() {
             min="0"
           />
         </div>
-
         {/* -----------------pedido do cliente---------------------*/}
-
-        {/* {showResume ? ( */}
-        {' '}
-        {/* --- mudando para comanda fixa --- */}
+        {/* {showResume ? (    -- mudando para comanda fixa --- */}
         <div className="">
           <div className="container data-ready-order-client">
             <BackgroundCard>
@@ -326,7 +321,8 @@ function Hall() {
             </BackgroundCard>
           </div>
         </div>
-        {/* ) : null} */}
+        )
+        {/* : null */}
       </div>
 
       {/* ----------------- cardápio ---------------------*/}
