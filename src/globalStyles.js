@@ -77,7 +77,7 @@ h3 {
     } 
 }
 .container-register {
-    height: 100vh;
+    height: 120vh;
     margin-bottom: 100px; 
 }
 
@@ -89,7 +89,7 @@ h3 {
 .container-login, .container-register {
     backdrop-filter: blur(30px);
     padding-top: 20px;
-    width: 80vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,6 +97,10 @@ h3 {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 20px 0 darkgrey;
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        
+    }
 }
 
 .container-client-data {

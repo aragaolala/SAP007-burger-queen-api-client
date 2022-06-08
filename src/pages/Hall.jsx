@@ -300,7 +300,7 @@ function Hall() {
             </BackgroundCard>
           </div>
         </div>
-        ){/* : null */}
+        {/* ) : null */}
       </div>
 
       {/* ----------------- cardápio ---------------------*/}

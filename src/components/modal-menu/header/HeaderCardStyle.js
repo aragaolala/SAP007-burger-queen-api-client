@@ -27,8 +27,8 @@ export const Content = styled.div`
 
 export const Title = styled.p`
   color: white;
-  width: 100%;
-  margin-left: 200px;
+  width: 40%;
+ 
   font-family: "Lato", sans-serif;
 
   &:hover {
