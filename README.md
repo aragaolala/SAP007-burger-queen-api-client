@@ -216,7 +216,7 @@ Criada com https://coolors.co/
 <img alt="paleta" src="images/../src/images/foto-login.png" width="300px">
 <img alt="paleta" src="images/../src/images/sucesso-pedido.png" width="300px">
 
-<img alt="paleta" src="images/../src/images/gif-result.gif" width="300px">
+<img alt="paleta" src="images/../src/images/gif-result.gif">
 
 ## 5.📚 Objetivos de aprendizagem
 
