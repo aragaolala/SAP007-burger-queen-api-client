@@ -12,8 +12,7 @@ export const ButtonCard = styled.button`
     rgb(255 255 255 / 9%) 0px 10px 10px;
 
   &&:hover {
-    background-color: #FFE74C;
-    
+    background-color: #ffe74c;
   }
 `;
 export const Content = styled.div`
@@ -29,7 +28,7 @@ export const Content = styled.div`
 export const Title = styled.p`
   color: white;
   width: 100%;
-
+  margin-left: 200px;
   font-family: "Lato", sans-serif;
 
   &:hover {

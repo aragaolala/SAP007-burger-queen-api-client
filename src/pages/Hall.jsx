@@ -51,26 +51,26 @@ function Hall() {
 
     GetOrders().then((json) => {
       const FinishedOrders = json.filter(
-        (item) => item.status === 'Finalizado',
+        (item) => item.status === "Finalizado"
       );
       setReadyOrder(FinishedOrders ? FinishedOrders.length : 0);
     });
   }, []);
 
   const handleClick = (typeProduct) => {
-    if (typeProduct === 'breakfast') {
+    if (typeProduct === "breakfast") {
       setShowBreakfast(!showBreakfast);
     }
-    if (typeProduct === 'hamburguer') {
+    if (typeProduct === "hamburguer") {
       setShowHamburguer(!showHamburguer);
     }
-    if (typeProduct === 'drink') {
+    if (typeProduct === "drink") {
       setShowDrink(!showDrink);
     }
-    if (typeProduct === 'side') {
+    if (typeProduct === "side") {
       setShowSide(!showSide);
     }
-    if (typeProduct === 'hamburguerDuplo') {
+    if (typeProduct === "hamburguerDuplo") {
       setShowHamburguerDuplo(!showHamburguerDuplo);
     }
   };
@@ -89,7 +89,7 @@ function Hall() {
     price,
     quantityProduct,
     flavor,
-    complement,
+    complement
   ) => {
     const updatedOrder = [...order.filter((item) => item.id !== idProduct)];
 
@@ -120,7 +120,7 @@ function Hall() {
   };
 
   const sendSummary = () => {
-    if (nameClient !== '' && table !== '' && order.length > 0) {
+    if (nameClient !== "" && table !== "" && order.length > 0) {
       const allProducts = order.map((item) => {
         const productsArr = {
           id: item.id,
@@ -132,13 +132,13 @@ function Hall() {
       PostOrders(nameClient, table, allProducts).then(() => {
         setShowModal(true);
         setShowOrderSummary;
-        setNameClient('');
-        setTable('');
+        setNameClient("");
+        setTable("");
         setMenu(
           menu.map((item) => {
             item.quantity = 0;
             return item;
-          }),
+          })
         );
         setOrder([]);
         setShowBreakfast(false);
@@ -181,7 +181,7 @@ function Hall() {
   };
 
   const confirmcancelOrder = () => {
-    if (nameClient === '' || table === '') {
+    if (nameClient === "" || table === "") {
       setShowCancelModal(false);
     } else {
       setShowCancelModal(true);
@@ -193,21 +193,14 @@ function Hall() {
     setShowOrderSummary;
   };
 
-  const msgError = nameClient === '' || table === '' ? (
-    <p className="p-comanda">
-      <b>Por favor, preencha os dados do Cliente</b>
-    </p>
-  ) : null;
+  const msgError =
+    nameClient === "" || table === "" ? (
+      <p className="p-comanda">
+        <b>Por favor, preencha os dados do Cliente</b>
+      </p>
+    ) : null;
 
-  const alertOrderIsReady = readyOrder > 0 ? (
-    <>
-      {' '}
-      (
-      {readyOrder}
-      )
-      {' '}
-    </>
-  ) : null;
+  const alertOrderIsReady = readyOrder > 0 ? <> ({readyOrder}) </> : null;
 
   return (
     <>
@@ -220,11 +213,10 @@ function Hall() {
         <div className="container data-ready-order-client">
           <Link to="/readyorders">
             <ButtonsHallSeeOrders>
-              {' '}
+              {" "}
               Pedidos Prontos
               {alertOrderIsReady}
-            </ButtonsHallSeeOrders>
-            {' '}
+            </ButtonsHallSeeOrders>{" "}
           </Link>
 
           <Link to="/ordersdelivered">
@@ -257,53 +249,42 @@ function Hall() {
         </div>
         {/* -----------------pedido do cliente---------------------*/}
         {/* {showResume ? (    -- mudando para comanda fixa --- */}
-        <div className="">
-          <div className="container data-ready-order-client">
+        <div className="container data-ready-order-client">
+          <div className="order-summary">
             <BackgroundCard>
               <h3>Comanda</h3>
               {msgError}
 
-              <ParagraphUniversal style={{ color: 'white' }}>
+              <ParagraphUniversal style={{ color: "white" }}>
                 Cliente:
                 {nameClient}
               </ParagraphUniversal>
-              <ParagraphUniversal style={{ color: 'white' }}>
-                Mesa:
+              <ParagraphUniversal style={{ color: "white" }}>
+                 Mesa:
                 {table}
               </ParagraphUniversal>
 
               {order.map((item, index) => (
                 <DivProduct key={item.id}>
-                  <p>
-                    Qtd:
-                    {' '}
-                    {item.quantity}
-                    {' '}
-                    x
-                    {' '}
-                    {item.price}
-                    {' '}
+                 <p>
+                    Qtd: {item.quantity} x {item.price}{" "}
                   </p>
-                  <p>
-                    {' '}
-                    {item.name}
-                    {' '}
-                  </p>
+                  <p> {item.name} </p>
                   <p>{item.flavor}</p>
                   <p>{item.complement}</p>
                   <p>
-                    {' '}
+                    {" "}
                     R$
                     {item.totalProductPrice}
                   </p>
 
                   <MdDelete
                     onClick={() => remove(index)}
-                    style={{ color: '#d13030', cursor: 'pointer' }}
+                    style={{ color: "#d13030", cursor: "pointer" }}
                   />
                 </DivProduct>
               ))}
-              <ParagraphUniversal style={{ color: 'white' }}>
+              <ParagraphUniversal style={{ color: "white" }}>
                 Total: R$
                 {allValue}
               </ParagraphUniversal>
@@ -312,35 +293,32 @@ function Hall() {
                 <CancelOrder onClick={() => confirmcancelOrder()}>
                   Cancelar
                 </CancelOrder>
-                <BtnSendOrderToKitchenAndPrepareIt
-                  onClick={() => sendSummary()}
-                >
+                <BtnSendOrderToKitchenAndPrepareIt onClick={() => sendSummary()}>
                   Enviar
                 </BtnSendOrderToKitchenAndPrepareIt>
               </div>
             </BackgroundCard>
           </div>
         </div>
-        )
-        {/* : null */}
+        ){/* : null */}
       </div>
 
       {/* ----------------- cardápio ---------------------*/}
 
       <div className="container-teste">
-        <HeaderCard onClick={() => handleClick('breakfast')}>
+        <HeaderCard onClick={() => handleClick("breakfast")}>
           <Title>Café da Manhã</Title>
 
           <img src={breakfastImg} alt="cafe-da-manha" className="img-capa" />
         </HeaderCard>
 
         <MenuCardModal
-          itens={menu.filter((item) => item.type === 'breakfast')}
+          itens={menu.filter((item) => item.type === "breakfast")}
           showCard={showBreakfast}
           callback={addOrderSummary}
         />
 
-        <HeaderCard onClick={() => handleClick('hamburguer')}>
+        <HeaderCard onClick={() => handleClick("hamburguer")}>
           <Title>Burguer Simples</Title>
           <img
             src={burguerSimplesImg}
@@ -350,39 +328,39 @@ function Hall() {
         </HeaderCard>
 
         <MenuCardModal
-          itens={menu.filter((item) => item.name === 'Hambúrguer simples')}
+          itens={menu.filter((item) => item.name === "Hambúrguer simples")}
           showCard={showHamburguer}
           callback={addOrderSummary}
         />
 
-        <HeaderCard onClick={() => handleClick('hamburguerDuplo')}>
+        <HeaderCard onClick={() => handleClick("hamburguerDuplo")}>
           <Title>Burgão Duplo</Title>
           <img src={burguerDuploImg} alt="burguer-duplo" className="img-capa" />
         </HeaderCard>
 
         <MenuCardModal
-          itens={menu.filter((item) => item.name === 'Hambúrguer duplo')}
+          itens={menu.filter((item) => item.name === "Hambúrguer duplo")}
           showCard={showHamburguerDuplo}
           callback={addOrderSummary}
         />
 
-        <HeaderCard onClick={() => handleClick('drink')}>
+        <HeaderCard onClick={() => handleClick("drink")}>
           <Title>Bebidas</Title>
           <img src={drinkImg} alt="bebidas" className="img-capa" />
         </HeaderCard>
 
         <MenuCardModal
-          itens={menu.filter((item) => item.sub_type === 'drinks')}
+          itens={menu.filter((item) => item.sub_type === "drinks")}
           showCard={showDrink}
           callback={addOrderSummary}
         />
 
-        <HeaderCard onClick={() => handleClick('side')}>
+        <HeaderCard onClick={() => handleClick("side")}>
           <Title>Acompanhamento</Title>
           <img src={friesImg} alt="acompanhamento" className="img-capa" />
         </HeaderCard>
         <MenuCardModal
-          itens={menu.filter((item) => item.sub_type === 'side')}
+          itens={menu.filter((item) => item.sub_type === "side")}
           showCard={showSide}
           callback={addOrderSummary}
         />
@@ -396,8 +374,8 @@ function Hall() {
 
       <Modal showModal={showCancelModal} setShowModal={setShowCancelModal}>
         <p>Cancelar esse pedido?</p>
-        <div style={{ textAlign: 'center' }}>
-          <CancelOrder style={{ width: '150px' }} onClick={() => cancelOrder()}>
+        <div style={{ textAlign: "center" }}>
+          <CancelOrder style={{ width: "150px" }} onClick={() => cancelOrder()}>
             Cancelar
           </CancelOrder>
         </div>

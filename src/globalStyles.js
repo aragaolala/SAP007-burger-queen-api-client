@@ -31,8 +31,6 @@ p {
 
 .p-product {
     color: white;
-
-
 }
 
 h3 {
@@ -64,25 +62,23 @@ h3 {
 }
 
 .container {
-    
-    width: 80vh;
     margin-left: auto;
-    margin-right: auto;
     margin-top: 1em;
     border-radius: 12px;
-    
-
+   
     @media (min-width: 768px) and (max-width: 1024px) {
+        margin-right: 10vh;
+        margin-left: 10vh;
+
         .data-ready-order-client {
             display: grid;
-            
+            margin-right: 1vh;
         }
     } 
 }
 .container-register {
     height: 100vh;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px; 
 }
 
 .container-login {
@@ -91,7 +87,6 @@ h3 {
 }
 
 .container-login, .container-register {
-  
     backdrop-filter: blur(30px);
     padding-top: 20px;
     width: 80vh;
@@ -107,11 +102,6 @@ h3 {
 .container-client-data {
     width: 350px;
     display: inline-block
-
-    @media (min-width: 1025) {
-        width = 780px;
-            
-        }
 }
 
 .container-menu {
@@ -126,8 +116,6 @@ h3 {
     justify-content: center;
     text-align: left;
 }
-
-
 
 .div-btn-prepare-finish-order {
     display: flex;
@@ -179,22 +167,18 @@ h3 {
 }
 
 .data-ready-order-client {
-    
-    
-
     @media (min-width: 768px) and (max-width: 1024px) {
         display: grid;
+        margin: 0;
+        
     }
 }
-
-
 
 .container-client-and-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    margin-left: 230px;
+    
 }
 
 .btn-send-cancelOrder {
@@ -202,7 +186,6 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
 
 
 `;
