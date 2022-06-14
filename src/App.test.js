@@ -1,7 +1,7 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import LoginUser from './pages/login/login';
 import Register from './pages/register/Register';
-import Button from './components/button/Button';
+// import Button from './components/button/Button';
 import Input from './components/input/Input';
 
 /* eslint-disable */
@@ -18,22 +18,7 @@ describe("Register", () => {
   });
 });
 
-// testes componente botão
-test("It should submit button on login screen", () => {
-  const handleSubmit = jest.fn();
-  render(<Button onClick={handleSubmit}>Entrar</Button>);
-  expect(handleSubmit).toHaveBeenCalledTimes(0);
-  fireEvent.click(screen.getByText(/Entrar/i));
-  expect(handleSubmit).toHaveBeenCalledTimes(1);
-});
 
-test("It should submit button on register screen", () => {
-  const handleSubmit = jest.fn();
-  render(<Button onClick={handleSubmit}>Cadastre-se</Button>);
-  expect(handleSubmit).toHaveBeenCalledTimes(0);
-  fireEvent.click(screen.getByText(/Cadastre-se/i));
-  expect(handleSubmit).toHaveBeenCalledTimes(1);
-});
 
 // testes componente input
 describe("Testing input component", () => {
