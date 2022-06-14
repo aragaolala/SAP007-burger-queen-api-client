@@ -35,42 +35,43 @@ function OrdersDelivered() {
           <div className="p-voltar"> Voltar</div>
         </Link>
       </div>
-
-      {orders.map((item) => (
-        <div className="container" key={item.id}>
-          <BackgroundCard>
-            <DivProductKitchen>
-              <OrderSummaryH2>
-                Status:
-                {item.status}
-              </OrderSummaryH2>
-              <ParagraphUniversal>
-                Nome:
-                {item.client_name}
-              </ParagraphUniversal>
-              <ParagraphUniversal>
-                Mesa:
-                {item.table}
-              </ParagraphUniversal>
-              <div className="container">
-                {item.Products.map((product) => (
-                  <span key={product.id}>
-                    <p>
-                      {product.qtd}
-                      {' '}
-                      {product.name}
-                      {' '}
-                      {product.flavor}
-                      {' '}
-                      {product.complement}
-                    </p>
-                  </span>
-                ))}
-              </div>
-            </DivProductKitchen>
-          </BackgroundCard>
-        </div>
-      ))}
+      <div className="container-ordersdelivered">
+        {orders.map((item) => (
+          <div className="container-ordersdelivered" key={item.id}>
+            <BackgroundCard>
+              <DivProductKitchen>
+                <OrderSummaryH2>
+                  Status:
+                  {item.status}
+                </OrderSummaryH2>
+                <ParagraphUniversal>
+                  Nome:
+                  {item.client_name}
+                </ParagraphUniversal>
+                <ParagraphUniversal>
+                  Mesa:
+                  {item.table}
+                </ParagraphUniversal>
+                <div className="container">
+                  {item.Products.map((product) => (
+                    <span key={product.id}>
+                      <p>
+                        {product.qtd}
+                        {' '}
+                        {product.name}
+                        {' '}
+                        {product.flavor}
+                        {' '}
+                        {product.complement}
+                      </p>
+                    </span>
+                  ))}
+                </div>
+              </DivProductKitchen>
+            </BackgroundCard>
+          </div>
+        ))}
+      </div>
     </>
   );
 }

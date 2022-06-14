@@ -75,9 +75,13 @@ h3 {
             margin-right: 1vh;
         }
     } 
+    @media (min-width: 1025px) {
+        width: 70%;
+        margin-left: 25vh;
+    }
 }
 .container-register {
-    height: 120vh;
+    height: 100vh;
     margin-bottom: 100px; 
 }
 
@@ -182,6 +186,13 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+    @media (min-width: 1025px) {
+        width: 15vh;
+        margin-left: 30vh;
+    }
+    
     
 }
 
@@ -191,5 +202,15 @@ h3 {
     align-items: center;
 }
 
+.container-ordersdelivered {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 3vh;
+
+    @media (min-width: 1025px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1vh;
+    }
+}
 
 `;

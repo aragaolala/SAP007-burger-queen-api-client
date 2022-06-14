@@ -48,7 +48,7 @@ function ReadyOrders() {
         </Link>
       </div>
 
-      <section className="container">
+      <section className="container-ordersdelivered">
         {orders.map((item, index) => (
           <BackgroundCard key={item.id}>
             <DivProductKitchen>
