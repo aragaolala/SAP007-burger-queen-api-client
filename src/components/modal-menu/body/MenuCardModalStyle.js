@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 // modal do menu e da comanda - fundo
 export const BackgroundCard = styled.div`    
-  width: 70vh;
+  width: 60vh;
   height: auto;
   backdrop-filter: blur(20px);
-  /* background-color: rgba(0,0,0, 0.8); Black w/opacity/see-through */
+  
   border-radius: 10px;
   animation: up 1s;
   background-repeat: round;
