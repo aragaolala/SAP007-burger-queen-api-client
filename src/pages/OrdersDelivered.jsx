@@ -77,3 +77,32 @@ function OrdersDelivered() {
 }
 
 export default OrdersDelivered;
+
+/*
+- useEffect: A documentação oficial do React nos orienta como lidar com efeitos colaterais
+em nossos componentes, então vamos utilizar o hook useEffect para lidar com estes efeitos
+gerados pelo fetch(). Aqui, o side-effect é a chamada API.
+
+- useState: Com os dados da API em mãos, precisamos conseguir armazená-los em uma
+lista e depois exibi-los em tela.
+
+Após a chamada da API, há uma mudança de estado dentro da nossa aplicação,
+pois ela passa a ter os dados vindos da API que antes não tinha.
+Para que possamos lidar com as mudanças de estado da nossa aplicação,
+iremos usar o hook useState.
+
+O useState, que permite a criação de estado no componente através de função e
+faz o gerenciamento do estado local do componente retorna um array como resultado.
+Por isso, é possível fazermos uma desestruturação para receber partes desse retorno.
+O array de retorno possui dois índices. O primeiro valor deste array é uma variável
+que guarda o estado em si, que chamamos de repositorio (orders aqui, linha 17).
+Já o segundo valor é uma variável que é uma função, e é através dela que faremos
+as atualizações do valor do nosso estado, usamos setRepositorio (setOrders aqu) para
+nomear a nossa função, o set vem antes do nome por ser uma convenção da comunidade.
+
+Como a nossa função setRepositorio é a responsável por alterar o estado de repositorio,
+precisamos colocá-la dentro do escopo da função useEffect, porque ela é a responsável
+por pegar os dados que vão modificar o estado da nossa aplicação.
+
+https://www.alura.com.br/artigos/react-hooks?gclid=Cj0KCQjwkruVBhCHARIsACVIiOzdL7KQJATbTcpv8pJ8cTN8zcAvV_QcPcgqvq2vLK6pOA2773idYQUaAqL7EALw_wcB
+*/

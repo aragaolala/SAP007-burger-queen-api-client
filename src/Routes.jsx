@@ -63,3 +63,16 @@ function AllRoutesApp() {
 }
 
 export default AllRoutesApp;
+
+/*
+BrowserRouter: é um componente responsável por informar a nossa aplicação que teremos
+um roteamento de componentes, por conta disso ele ficará em volta dos componentes <Route>.
+Route: componente que associa a rota ao componente. Nele temos três parâmetros: component,
+path e exact.
+
+https://www.npmjs.com/package/react-router
+
+--------------------------------
+
+- CORS: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
+*/

@@ -16,3 +16,9 @@ export function Logout() {
 
   );
 }
+
+/* 
+Se o localStorage, que está pegando o item "token", for limpo, retorna para 
+a página de login.
+
+*/

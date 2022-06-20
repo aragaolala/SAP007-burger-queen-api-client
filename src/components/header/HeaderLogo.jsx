@@ -9,10 +9,18 @@ function HeaderLogo({ showLogOut }) {
 
   return (
     <Container className="container">
-      <img className="logo" src={img} alt="logo" />
+      <img className="logo" src={img} alt="Logo Brasa Burguer" />
       {showLogOut ? iconLogOut : null}
     </Container>
   );
 }
 
 export default HeaderLogo;
+
+/*
+inconLogout recebe o componente Logout - que tem a condiçao: se o localStorage estiver limpo,
+volta para a página de login, else retorna o ícone de logout no cabeçalho. 
+Então, o showLogOut: se o localStorage esiver recebendo o token do funcionário, isso é
+o valor do iconLogOut, mostra o ícone, do contrário fica null, vazio.
+
+*/

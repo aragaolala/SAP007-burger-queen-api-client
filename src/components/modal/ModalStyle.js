@@ -67,7 +67,7 @@ justify-content: space-between;
     }
 `;
 
-// para fechar o modal "pedido enviado com sucesso"
+// para fechar o modal "pedido enviado com sucesso" e opções do menu
 export const CloseModalOfMenuOptions = styled(MdClose)`
 cursor: pointer;
 background-color: #F7F7FF;

@@ -66,3 +66,30 @@ function LoginUser() {
 }
 
 export default LoginUser;
+
+/*
+https://pt-br.reactjs.org/docs/handling-events.html
+Eventos React
+- onChange = The onChange event handler is a prop that you can pass into JSX’s input elements.
+In React, onChange is used to handle user input in real-time.
+
+If you want to build a form in React, you need to use this event to track
+the value of input elements.
+
+https://sebhastian.com/react-onchange/
+
+--------------------------------
+
+- handleChange = A função handleChange() que você vê em muitos exemplos de componentes React
+é uma função regular criada para lidar com alterações de entrada. É comumente passado
+para a propriedade onChange de um elemento <input> para interceptar a entrada do usuário.
+
+Quando o usuário digita em seu elemento <input>, a função do manipulador de eventos onChange
+criará um objeto de evento e o passará para a função handleChange().
+
+https://sebhastian.com/handlechange-react/
+
+--------------------------------
+https://felipegalvao.com.br/pt/blog/learn-react-events-and-forms/
+
+*/
