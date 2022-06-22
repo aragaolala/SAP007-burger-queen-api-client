@@ -225,7 +225,7 @@ function Hall() {
 
           {/* <div className="container data-ready-order-client"> */}
           <ClientData
-            placeholder="Nome do cliente"
+            placeholder="Digite o nome do cliente:"
             label="Nome do Cliente"
             id="name"
             className="input"
@@ -236,7 +236,7 @@ function Hall() {
           />
 
           <ClientData
-            placeholder="Mesa"
+            placeholder="Digite o nº da mesa:"
             label="Mesa do Cliente"
             className="input"
             name="tableClient"

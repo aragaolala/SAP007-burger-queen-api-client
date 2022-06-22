@@ -55,18 +55,16 @@ export const Label = styled.label`
 export const ClientData = styled.input`
   width: 14rem;
   border: none;
-  background-color: #531cb3;
+  background-color: #F7F7FF;
 
   text-align: center;
   height: 3.5rem;
-  font-size: 20px;
-  color: #f7f7ff;
+  font-size: 15px;
   border-radius: 0.4rem;
   margin-bottom: 15px;
 
   &&::placeholder {
     font-size: 1em;
-    color: #f7f7ff;
   }
 `;
 
